@@ -1,0 +1,4 @@
+name: CoinsAPI
+main: coinsapi.Main
+version: 1.0
+author: Pradotec
