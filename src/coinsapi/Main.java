@@ -5,6 +5,8 @@ package coinsapi;
         import java.sql.ResultSet;
         import java.sql.SQLException;
         import java.sql.Statement;
+
+        import coinsapi.api.CoinsAPI;
         import org.bukkit.Bukkit;
         import org.bukkit.configuration.file.FileConfiguration;
         import org.bukkit.entity.Player;
@@ -131,6 +133,7 @@ public class Main
     public void onJoin(PlayerJoinEvent e)
     {
         Player p = e.getPlayer();
+        int coins = CoinsAPI.getCoins(p);
         boolean exist = false;
         try
         {

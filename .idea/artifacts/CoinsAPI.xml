@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" build-on-make="true" name="CoinsAPI">
-    <output-path>$PROJECT_DIR$/out/artifacts/CoinsAPI</output-path>
+    <output-path>$USER_HOME$/Desktop/Out Plugin</output-path>
     <root id="archive" name="CoinsAPI.jar">
       <element id="module-output" name="CoinsAPI" />
       <element id="directory" name="META-INF">
